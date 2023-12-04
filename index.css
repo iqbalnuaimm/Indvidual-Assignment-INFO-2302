@@ -1,0 +1,221 @@
+header{
+    margin: 0;
+    padding: 0;
+    height: 8.5em;
+    font-family: "Lilita One", Gadget, sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.8px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    height: 200px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #022857;
+}
+h1{
+    text-align: center;
+}
+#donationPhoto{
+    text-align: center;
+    margin-top: 0px;
+}
+img{
+    margin-top: 0px;
+    margin-bottom: 0.45em;
+    border-radius: 25px;
+}
+#tagline{
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 2em;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+#dalil{
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+#formDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.forms{
+    background-color: #ffffff;
+    border-color: #C69431;
+    border-width: 3px;
+}
+input{
+    background-color: #7fb9f4;
+    border-radius: 5px;
+    border-width: 1px;
+}
+select{
+    text-align: center;
+    background-color: #7fb9f4;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.formHeader{
+    font-family: Georgia, serif;
+    font-size: 26px;
+    letter-spacing: 0.8px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+#generalForm{
+    display: grid;
+    text-align: center;
+    grid-template-rows: 60px 60px 60px 60px 120px 60px 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'headerGF headerGF'
+    'GF1 GF2'
+    'GF3 GF4'
+    'GF5 GF6'
+    'GF7 GF7'
+    'GFBtn GFBtn'
+    'GFCfm GFCfm';
+}
+#GFHeader{
+    grid-area: headerGF;
+}
+#nameGFrm{
+    grid-area: GF1;
+}
+#staffNoGFrm{
+    grid-area: GF2;
+}
+#kcdioGFrm{
+    grid-area: GF3;
+}
+#contactNoGFrm{
+    grid-area: GF4;
+}
+#emailGFrm{
+    grid-area: GF5;
+}
+#amntGFrm{
+    grid-area: GF6;
+}
+#contractGFrm{
+    grid-area: GF7;
+}
+#GFBtn{
+    grid-area: GFBtn;
+}
+#gfConfirm{
+    grid-area: GFCfm;
+    display: none;
+}
+#gfConfirmBtn{
+    height: 4em;
+}
+#kulliyyahForm{
+    display: grid;
+    text-align: center;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'headerKF headerKF'
+    'KF1 KF2'
+    'KF3 KF4'
+    'KF5 KF6'
+    'KF7 KF7'
+    'KF8 KF8'
+    'KFBtn KFBtn'
+    'KFCfm KFCfm';
+}
+#KFHeader{
+    grid-area: headerKF;
+}
+#nameKFrm{
+    grid-area: KF1;
+}
+#staffNoKFrm{
+    grid-area: KF2;
+}
+#kcdioKFrm{
+    grid-area: KF3;
+}
+#contactNoKFrm{
+    grid-area: KF4;
+}
+#emailKFrm{
+    grid-area: KF5;
+}
+#amntKFrm{
+    grid-area: KF6;
+}
+#contractKFrm{
+    grid-area: KF7;
+}
+#kulKFrm{
+    grid-area: KF8;
+}
+#KFBtn{
+    grid-area: KFBtn;
+}
+#kfConfirm{
+    grid-area: KFCfm;
+    display: none;
+}
+#kfConfirmBtn{
+    height: 4em;
+}
+button{
+    text-align: center;
+    background-color: #C69431;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+button:hover{
+    cursor: pointer;
+}
+#dalil{
+    margin: 50px;
+}
+footer{
+    border-top-style: double;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+a{
+    color: rgb(0, 195, 255);
+}

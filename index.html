@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<header>
+    <h1>
+        <img src="IIUM Logo Panjang.jpg" alt="IIUM Logo" width=330px><br>RM1 CAMPAIGN
+    </h1>
+</header>
+<body>
+    <div id="donationPhoto">
+        <img src="katt-yukawa-K0E6E0a0R3A-unsplash.jpg" alt="Donate today with us." width="500px">
+    </div>
+    <div>
+        <h3 id="tagline">
+            Let your contributions be perpetual for the pleasure of Allah
+            SWT.
+        </h3>
+    </div>
+<div id="formDiv">
+
+    <form>
+        <fieldset id="generalForm" class="forms">
+        <h3 id="GFHeader" class="formHeader">General Form</h3>
+        <div id="nameGFrm" class="inputGFrm">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" required>
+        </div>
+        <div id="staffNoGFrm" class="inputGFrm">
+            <label for="staffNo">Staff Number</label><br>
+            <input type="text" id="StaffNo" required>
+        </div>
+        <div id="kcdioGFrm" class="inputGFrm">
+            <label for="kcdio">K/C/D/I/O</label><br>
+            <input type="text" id="kcdio" required>
+        </div>
+        <div id="contactNoGFrm" class="inputGFrm">
+            <label for="contactNo">Contact Number</label><br>
+            <input type="text" id="contactNo" required>
+        </div>
+        <div id="emailGFrm" class="inputGFrm">
+            <label for="email">Email</label><br>
+            <input type="text" id="email" required>
+        </div>
+        <div id="amntGFrm" class="inputGFrm">
+            <label for="amount">Amount (RM)</label><br>
+            <input type="text" id="amount" required>
+        </div>
+        <div id="contractGFrm" class="inputGFrm">
+            <label>The above salary deduction will take effect from </label>
+            <input type="month" id="startMonth" required>
+            <label>until</label>
+            <input type="month" id="endMonth" required>
+            <label> or further notice. <br></label>
+        </div>
+        <br><br>
+        <button id="GFBtn" type="button">Submit</button>
+        <div id="gfConfirm">
+            <p>Are you sure? Please confirm if you are sure.</p>
+            <button id="gfConfirmBtn" type="submit">Confirm</button>
+            </div>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset id="kulliyyahForm" class="forms">
+        <h3 id="KFHeader" class="formHeader">Kulliyyah Form</h3>
+        <div id="nameKFrm" class="inputKFrm">
+            <label for="name">Name</label><br>
+            <input type="text" id="name">
+        </div>
+        <div id="staffNoKFrm" class="inputKFrm">
+            <label for="staffNo">Staff Number</label><br>
+            <input type="text" id="StaffNo" required>
+        </div>
+        <div id="kcdioKFrm" class="inputKFrm">
+            <label for="kcdio">K/C/D/I/O</label><br>
+            <input type="text" id="kcdio" required>
+        </div>
+        <div id="contactNoKFrm" class="inputKFrm">
+            <label for="contactNo">Contact Number</label><br>
+            <input type="text" id="contactNo" required>
+        </div>
+        <div id="emailKFrm" class="inputKFrm">
+            <label for="email">Email</label><br>
+            <input type="text" id="email" required>
+        </div>
+        <div id="amntKFrm" class="inputKFrm">
+            <label for="amount">Amount (RM)</label><br>
+            <input type="text" id="amount" required pattern="[0-9]">
+        </div>
+        <div id="contractKFrm" class="inputKFrm">
+            <label>The above salary deduction will take effect from </label>
+            <input type="month" id="startMonth" required>
+            <label>until</label>
+            <input type="month" id="endMonth" required>
+            <label> or further notice. <br></label>
+        </div>
+        <div id="kulKFrm" class="inputKFrm">
+        <br>
+        <label for="kulliyyah">For Kulliyyah</label><br>
+        <select name="kulliyyah" id="kulliyyah" class="inputKFrm"  required>
+            <option value="default">---Please Select---</option>
+            <option value="kirkhs">AHAS KIRKHS</option>
+            <option value="aikol">AIKOL</option>
+            <option value="celpad">CELPAD</option>
+            <option value="kaed">KAED</option>
+            <option value="kahs">KAHS</option>
+            <option value="kenms">KENMS</option>
+            <option value="kict">KICT</option>
+            <option value="klm">KLM</option>
+            <option value="kod">KOD</option>
+            <option value="koe">KOE</option>
+            <option value="koed">KOED</option>
+            <option value="kom">KOM</option>
+            <option value="kon">KON</option>
+            <option value="kop">KOP</option>
+            <option value="kos">KOS</option>
+          </select>
+        <br>
+        </div>
+        <br><br>
+        <button id="KFBtn" type="button">Submit</button>
+        <div id="kfConfirm">
+            <p>Are you sure? Please confirm if you are sure.</p>
+            <button id="kfConfirmBtn" type="submit">Confirm</button>
+            </div>
+        </fieldset>
+    </form>
+</div>
+<h4 id="dalil">
+    “The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows seven spikes; 
+    in each spike is a hundred grains. And Allah multiplies [His reward] for whom He wills. And Allah is all-Encompassing 
+    and Knowing.” <br><br>
+    Al Baqarah:261
+</h4>
+</body>
+<footer>
+    <h3>IIUM ENDOWMENT FUND</h3>
+    <p>
+        Level 3, Rectory <br>
+        International Islamic University Malaysia <br>
+        P.O. Box 10 <br>
+        50728 Kuala Lumpur <br>
+        Tel : 03 6196 4268 <br>
+        Email : ief@iium.edu.my <br>
+        Website : <a href="https://www.iium.edu.my/ef" class="footerHL">www.iium.edu.my/ef</a> <br>
+        Facebook : <a href="https://www.facebook.com/iefofficial/" class="footerHL">www.facebook.com/ief.official/</a>
+    </p>
+</footer>
+    <script src="index.js"></script>
+</html>
